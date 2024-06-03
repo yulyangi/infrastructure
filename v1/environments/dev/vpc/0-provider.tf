@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 terraform {
-  required_version = ">= 1.0"
+  required_version = ">= 0.15.5"
 
   backend "local" {
     path = "dev/vpc/terraform.tfstate"
@@ -12,7 +12,7 @@ terraform {
   required_providers {
     aws = {
         source = "hashicorp/aws"
-        version = "~> 4.62"
+        version = "~> 5.52"
     }
   }
 }
