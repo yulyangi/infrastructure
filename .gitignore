@@ -1,3 +1,4 @@
 .terraform.lock.hcl
 .terraform/
+.terragrunt-cache
 infrastructure-live/environments/dev/vpc/dev/
