@@ -9,5 +9,5 @@ terraform {
 }
 
 module "vpc" {
-  source = "../../../../"
+  source = "../../../../infrastructure-modules/vpc"
 }
