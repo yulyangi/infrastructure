@@ -75,7 +75,7 @@ inputs = {
   }
 
   tags = {
-    "foo = "bar"
+    "foo" = "bar"
   }
 }
 ```
